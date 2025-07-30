@@ -1,7 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-const API_KEY =
-  process.env.OPENROUTER_API_KEY || "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"
+const API_KEY = "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"
 
 export async function POST(request: NextRequest) {
   try {
